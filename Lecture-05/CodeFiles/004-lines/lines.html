@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Beginning SVG: Creating a simple example</title>
+  <link rel="stylesheet" href="css/lines.css"
+</head>
+<body>
+  <h2>Beginning SVG: Drawing Lines, Polylines and Polygons</h2>
+  
+  <span>Adding a line:</span> 
+  <svg id="lineID">
+    <line x1 = "20" y1 = "20" x2 = "175" y2 = "180" stroke = "black" stroke-width = "3"/>
+  </svg>
+
+  <span>Adding an polyline:</span>
+  <svg id="polylineID">
+    <polyline points = "20,20 40,25 60,40 80,120 120,140 200,180" fill = "none" stroke = "black" stroke-width = "3"/>
+  </svg>
+
+  <span>Adding an polygon:</span>
+  <svg id="polygonID">
+     <polygon points = "60,10 140,10 190,70 190,130 140,190 60,190 10,130 10,70" fill = "gainsboro" stroke = "black" stroke-width = "3"/>
+  </svg>    
+</body>
+</html>

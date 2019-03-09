@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'pt_sansregular';
+  src: url('../font/pt_sansregular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'pt_sansregular', sans-serif;
+  padding: 2rem;
+}
+
+span {
+  width: 200px;
+  vertical-align: top;
+}
+
+svg {
+  display: inline-block;
+  height: 200px;
+  padding-top: 20px;
+}
+
+#lineID, #polylineID, #polygonID {
+  margin-left: -116px;
+}
+
